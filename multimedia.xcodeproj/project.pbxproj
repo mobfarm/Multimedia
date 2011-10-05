@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95052E15143C75300067754E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95052E14143C75300067754E /* UIKit.framework */; };
+		95052E17143C75300067754E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95052E16143C75300067754E /* Foundation.framework */; };
+		95052E19143C75300067754E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95052E18143C75300067754E /* CoreGraphics.framework */; };
+		95052E1F143C75300067754E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95052E1D143C75300067754E /* InfoPlist.strings */; };
+		95052E21143C75300067754E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95052E20143C75300067754E /* main.m */; };
+		95052E25143C75300067754E /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95052E24143C75300067754E /* MFAppDelegate.m */; };
+		95052E28143C75300067754E /* MFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95052E27143C75300067754E /* MFViewController.m */; };
+		95052E2B143C75310067754E /* MFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95052E29143C75300067754E /* MFViewController.xib */; };
+		952E8766143C77D000C25E08 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952E8761143C77D000C25E08 /* FastPdfKit.framework */; };
+		952E8767143C77D000C25E08 /* FastPdfKitFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 952E8763143C77D000C25E08 /* FastPdfKitFramework.xcconfig */; };
+		952E8768143C77D000C25E08 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 952E8764143C77D000C25E08 /* FPKReaderBundle.bundle */; };
+		952E8769143C77D000C25E08 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 952E8765143C77D000C25E08 /* Snippets.txt */; };
+		955CCF51143C784C00E25377 /* Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 955CCF50143C784C00E25377 /* Manual.pdf */; };
+		955CCF54143C78A000E25377 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 955CCF53143C78A000E25377 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95052E10143C75300067754E /* multimedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multimedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95052E14143C75300067754E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95052E16143C75300067754E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95052E18143C75300067754E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95052E1C143C75300067754E /* multimedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multimedia-Info.plist"; sourceTree = "<group>"; };
+		95052E1E143C75300067754E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95052E20143C75300067754E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95052E22143C75300067754E /* multimedia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multimedia-Prefix.pch"; sourceTree = "<group>"; };
+		95052E23143C75300067754E /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		95052E24143C75300067754E /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		95052E26143C75300067754E /* MFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFViewController.h; sourceTree = "<group>"; };
+		95052E27143C75300067754E /* MFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFViewController.m; sourceTree = "<group>"; };
+		95052E2A143C75310067754E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MFViewController.xib; sourceTree = "<group>"; };
+		952E8761143C77D000C25E08 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		952E8763143C77D000C25E08 /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
+		952E8764143C77D000C25E08 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		952E8765143C77D000C25E08 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		955CCF50143C784C00E25377 /* Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Manual.pdf; sourceTree = "<group>"; };
+		955CCF53143C78A000E25377 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95052E0D143C75300067754E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95052E15143C75300067754E /* UIKit.framework in Frameworks */,
+				95052E17143C75300067754E /* Foundation.framework in Frameworks */,
+				95052E19143C75300067754E /* CoreGraphics.framework in Frameworks */,
+				952E8766143C77D000C25E08 /* FastPdfKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95052E05143C75300067754E = {
+			isa = PBXGroup;
+			children = (
+				95052E1A143C75300067754E /* multimedia */,
+				95052E13143C75300067754E /* Frameworks */,
+				95052E11143C75300067754E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95052E11143C75300067754E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95052E10143C75300067754E /* multimedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95052E13143C75300067754E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952E8760143C77D000C25E08 /* FastPdfKit.embeddedframework */,
+				95052E14143C75300067754E /* UIKit.framework */,
+				95052E16143C75300067754E /* Foundation.framework */,
+				95052E18143C75300067754E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95052E1A143C75300067754E /* multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				95052E23143C75300067754E /* MFAppDelegate.h */,
+				95052E24143C75300067754E /* MFAppDelegate.m */,
+				95052E26143C75300067754E /* MFViewController.h */,
+				95052E27143C75300067754E /* MFViewController.m */,
+				95052E29143C75300067754E /* MFViewController.xib */,
+				95052E1B143C75300067754E /* Supporting Files */,
+			);
+			path = multimedia;
+			sourceTree = "<group>";
+		};
+		95052E1B143C75300067754E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				955CCF53143C78A000E25377 /* index.html */,
+				955CCF50143C784C00E25377 /* Manual.pdf */,
+				95052E1C143C75300067754E /* multimedia-Info.plist */,
+				95052E1D143C75300067754E /* InfoPlist.strings */,
+				95052E20143C75300067754E /* main.m */,
+				95052E22143C75300067754E /* multimedia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952E8760143C77D000C25E08 /* FastPdfKit.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				952E8761143C77D000C25E08 /* FastPdfKit.framework */,
+				952E8762143C77D000C25E08 /* Resources */,
+			);
+			path = FastPdfKit.embeddedframework;
+			sourceTree = "<group>";
+		};
+		952E8762143C77D000C25E08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				952E8763143C77D000C25E08 /* FastPdfKitFramework.xcconfig */,
+				952E8764143C77D000C25E08 /* FPKReaderBundle.bundle */,
+				952E8765143C77D000C25E08 /* Snippets.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95052E0F143C75300067754E /* multimedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95052E2E143C75310067754E /* Build configuration list for PBXNativeTarget "multimedia" */;
+			buildPhases = (
+				95052E0C143C75300067754E /* Sources */,
+				95052E0D143C75300067754E /* Frameworks */,
+				95052E0E143C75300067754E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multimedia;
+			productName = multimedia;
+			productReference = 95052E10143C75300067754E /* multimedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95052E07143C75300067754E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 95052E0A143C75300067754E /* Build configuration list for PBXProject "multimedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95052E05143C75300067754E;
+			productRefGroup = 95052E11143C75300067754E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95052E0F143C75300067754E /* multimedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95052E0E143C75300067754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95052E1F143C75300067754E /* InfoPlist.strings in Resources */,
+				95052E2B143C75310067754E /* MFViewController.xib in Resources */,
+				952E8767143C77D000C25E08 /* FastPdfKitFramework.xcconfig in Resources */,
+				952E8768143C77D000C25E08 /* FPKReaderBundle.bundle in Resources */,
+				952E8769143C77D000C25E08 /* Snippets.txt in Resources */,
+				955CCF51143C784C00E25377 /* Manual.pdf in Resources */,
+				955CCF54143C78A000E25377 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95052E0C143C75300067754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95052E21143C75300067754E /* main.m in Sources */,
+				95052E25143C75300067754E /* MFAppDelegate.m in Sources */,
+				95052E28143C75300067754E /* MFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95052E1D143C75300067754E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95052E1E143C75300067754E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95052E29143C75300067754E /* MFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95052E2A143C75310067754E /* en */,
+			);
+			name = MFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95052E2C143C75310067754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		95052E2D143C75310067754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95052E2F143C75310067754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952E8763143C77D000C25E08 /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multimedia/multimedia-Prefix.pch";
+				INFOPLIST_FILE = "multimedia/multimedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95052E30143C75310067754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952E8763143C77D000C25E08 /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multimedia/multimedia-Prefix.pch";
+				INFOPLIST_FILE = "multimedia/multimedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95052E0A143C75300067754E /* Build configuration list for PBXProject "multimedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95052E2C143C75310067754E /* Debug */,
+				95052E2D143C75310067754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95052E2E143C75310067754E /* Build configuration list for PBXNativeTarget "multimedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95052E2F143C75310067754E /* Debug */,
+				95052E30143C75310067754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95052E07143C75300067754E /* Project object */;
+}
