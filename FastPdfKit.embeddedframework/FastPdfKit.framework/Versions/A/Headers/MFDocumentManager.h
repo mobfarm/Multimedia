@@ -29,12 +29,10 @@
 	NSString * password;
 	
 	NSLock * pageDataLock;
+    
 	int *dataSetFlags;
 	CGRect *cropboxes;
 	int *rotations;
-    
-    // NSMutableDictionary * fontCache;
-    
 }
 
 // These method are used internally.
@@ -50,7 +48,7 @@
 /**
  Use this method to get the cropbox and the rotation of a certain pdf page.
  */
--(void)getCropbox:(CGRect *)cropbox andRotation:(int *)rotation forPageNumber:(NSInteger)pageNumber;
+-(void)getCropbox:(CGRect *)cropbox andRotation:(int *)rotation forPageNumber:(NSInteger)pageNumber withBuffer:(BOOL)withOrWithout;
 
 /**
  Create a thumbnail for a specific page. It will look far better than the thumbnail integrated inside the pdf, but
@@ -106,15 +104,12 @@
 
 /**
  Return an array of MFTextItem representing the matches of teh search term on the page passed
- as arguments. It is a good choice running this method in a secondary thread. Pass NULL as profile
- to use default search profile. Profile is not retained, so be sure to keep it in memory until the function
- returns.
+ as arguments. It is a good choice running this method in a secondary thread.
  */
 -(NSArray *)searchResultOnPage:(NSUInteger)pageNr forSearchTerms:(NSString *)searchTerm;
 
 /**
- Return a string representation of the text contained in a pdf page. Profile is not retained, so be sure to keep
- it in memory until the function returns. You can pass NULL to use the default profile.
+ Return a string representation of the text contained in a pdf page.
  */
 -(NSString *)wholeTextForPage:(NSUInteger)pageNr;
 
@@ -124,11 +119,14 @@
 +(NSString *)version;
 
 /**
- This is an experimental features. It will allow to customize the behaviour for search and extraction of text. You can
- set the values inside of this struct before launching a search or a text extraction action. Look at mfprofile.h for an explanation of the MFProfile struct and how to customize it. This is the default profile used as fallback when
- a NULL profile is passed to the search and extraction methods.
+ Array of every uri annotation for a selected page.
  */
-//@property (nonatomic,readwrite) MFProfile defaultProfile;
+-(NSArray *)uriAnnotationsForPageNumber:(NSUInteger)pageNr;
+
+/**
+ Get the parameters for a generic uri, useful to parse options passed with the annotations to customize the behaviour.
+ */
++(NSDictionary *)paramsFromURI:(NSString *)uri;
 
 /**
  Resouce folder for the document. Video, audio and other files referenced in the pdf are contained here.
