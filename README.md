@@ -1,6 +1,6 @@
 # Multimedia with FastPdfKit
 
-![Map](http://reader.fastpdfkit.com/readme/map.jpg)
+![Map](http://reader.fastpdfkit.com/FPKUri/map.jpg)
 
 [FastPdfKit](http://fastpdfkit.com) is a framework to add PDF support to iOS apps and
 it's available here on [github](https://github.com/mobfarm/fastpdfkit).
