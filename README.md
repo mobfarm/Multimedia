@@ -5,6 +5,8 @@
 [FastPdfKit](http://fastpdfkit.com) is a framework to add PDF support to iOS apps and
 it's available here on [github](https://github.com/mobfarm/fastpdfkit).
 
+This document is the Readme for the [multimedia](https://github.com/mobfarm/multimedia) sample project available on [github](https://github.com/mobfarm/multimedia).
+
 Since version 3.0 it supports multimedia overlays from native pdf annotations.
 
 In this repository we are creating some sample classes to let you familiarize with the capabilities and create your customized overlays.
@@ -25,9 +27,17 @@ With the technique illustrated below you can create any kind of overlay:
 * Popup messages
 * Popup web view
 * Pupup images
+* Include pools
+* Get more informations
 * Interact with the document
 * Set some properties
 * Lock the rotation
+* Tweet some text
+* 360° panorama
+* Video popup
+* Change page content
+* Images carousels
+* Send email
 * ...
 
 Download the **FastPdfKit Reader** app from the [App Store](http://itunes.com/apps/fastpdfkitreader) and look at the **Gliphit** pdf: it doesn't seems a pdf!
