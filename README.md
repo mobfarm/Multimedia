@@ -8,9 +8,7 @@ it's available here on [github](https://github.com/mobfarm/fastpdfkit).
 This document is the Readme for the [multimedia](https://github.com/mobfarm/multimedia) sample project available on [github](https://github.com/mobfarm/multimedia).
 
 Since version 3.0 it supports multimedia overlays from native pdf annotations.
-
-In this repository we are creating some sample classes to let you familiarize with the capabilities and create your customized overlays.
-
+In this repository we are creating some sample classes to let you familiarize yourself with the their capabilities and to help you create your customized overlays.
 ## Default FastPdfKit annotations
 
 FastPdfKit supports internally some annotations, take a look at [this list](http://support.fastpdfkit.com/kb/faq-and-tips/multimedia-protocols-and-url).
